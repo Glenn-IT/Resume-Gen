@@ -16,6 +16,9 @@ echo Generating 2-Page Resume PDF...
 echo Generating 1-Page Resume PDF...
 %CHROME_PATH% --headless --disable-gpu --no-sandbox --no-pdf-header-footer --print-to-pdf="%~dp0Glenard_Pagurayan_Resume_ATS_1Page.pdf" "%~dp0resume_1page.html"
 
+echo Generating CAGELCO I Application Letter PDF...
+%CHROME_PATH% --headless --disable-gpu --no-sandbox --no-pdf-header-footer --print-to-pdf="%~dp0CAGELCO_I_Application_Letter_Glenard_Pagurayan.pdf" "%~dp0CAGELCO_I_Application_Letter_Glenard_Pagurayan.html"
+
 echo.
-echo Both PDFs generated successfully!
+echo All PDFs generated successfully!
 pause
